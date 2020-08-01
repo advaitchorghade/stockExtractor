@@ -6,3 +6,5 @@ Using Python we can use web-scraping to find live stock data. Live share prices 
 The funtion I have created contains a dictionary including possible stocks you want to find. The first parameter is the country, e.g. UK, the second is the stock code e.g. LLOY and the third is the time between each ping.  
 
 The scraper works from investing.com, so any investing.com link will work provided it is in the same format (which they are). 
+
+Note in order to extract the information we must 'disguise' ourselves as a browser,in this case Chrome. In the future we could change this with every ping. 
