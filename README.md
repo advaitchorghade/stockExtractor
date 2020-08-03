@@ -8,3 +8,5 @@ The funtion I have created contains a dictionary including possible stocks you w
 The scraper works from investing.com, so any investing.com link will work provided it is in the same format (which they are). 
 
 Note in order to extract the information we must 'disguise' ourselves as a browser,in this case Chrome. In the future we could change this with every ping. 
+
+Do realise the fact that many modern websites have defences to tackly web-scraping such as IP banning which could be bypassed using a VPN, which I have not implimented. 
