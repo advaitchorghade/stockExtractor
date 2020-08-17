@@ -11,4 +11,4 @@ def stonks(x='LSE',y='UK',z = '0'): ##Funtion inputs include country, code and t
     soup = BeautifulSoup(c, "html.parser")
     #print(soup) ## Uncomment if you wish to see the HTML document
     final  = (soup.find(id="last_last").string).replace(',','')
-    return final
+    return final ##Return the value
