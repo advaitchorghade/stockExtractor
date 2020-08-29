@@ -10,3 +10,5 @@ The scraper works from investing.com, so any investing.com link will work provid
 Note in order to extract the information we must 'disguise' ourselves as a browser,in this case Chrome. In the future we could change this with every ping. 
 
 Do realise the fact that many modern websites have defences to tackly web-scraping such as IP banning which could be bypassed using a VPN, which I have not implimented. 
+
+*required modules: time, bs4*
